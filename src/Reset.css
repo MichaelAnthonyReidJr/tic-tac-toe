@@ -1,0 +1,21 @@
+.reset-btn {
+    border: none;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(lightblue, lightpink);
+    color: darkblue;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    display: block;
+    
+  }
+  
+  .reset-btn:hover {
+    background-image: linear-gradient(blue, pink);
+   
+  }
+  .reset-btn:active {
+    background-image: linear-gradient(blue, pink);
+    transform: translateY(7px);
+    box-shadow: 6px, 6px, 6px;
+  }
